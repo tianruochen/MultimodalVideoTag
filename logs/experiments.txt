@@ -1,0 +1,19 @@
+AttentionLstmErnie_epoch13_acc76.10:
+1) ALL
+    [TEST] Finish	Loss: 77.033091,	avg_acc1:75.26,	avg_acc2:84.73,	avg_acc3:89.07,	avg_acc5:92.84,
+    avg auc:0.963945214022243  avg f1: 0.4917679074839216
+    gap @ top1: 0.2959395441964685
+    gap @ top3: 0.5718484083989612
+    gap @ top5: 0.6440486855457146
+2) VIDEOS
+    [TEST] Finish	Loss: 76.103193,	avg_acc1:77.38,	avg_acc2:86.20,	avg_acc3:90.39,	avg_acc5:94.04,
+    avg auc:0.9667581082435445  avg f1: 0.4946243229464476
+    gap@top1: 0.3083160465974124
+    gap@top3: 0.5718050787455984
+    gap@top5: 0.6413195172607501
+
+InsightMultiModal + AttentionLstmErnie_epoch13_acc76.10:
+    avg auc:0.9822658674296542  avg f1: 0.5772990514925789
+    gap@top1: 0.3112401489497948
+    gap@top3: 0.6246772690884734
+    gap@top5: 0.7106561009504155
